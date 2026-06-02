@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat&family=Ole&display=swap');
+
+:root {
+    --cor-principal: #8bc17d;
+    --cor-secundaria: #E8F5BD;
+    --cor-terciaria: #e4f99e;
+    --cor-quarta:#74a667;
+    --cor-hover: #A2CB8B;
+
+    --fonte-principal: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+    --fonte-terciaria: "Lora", serif;
+    --fonte-quarta: "Ole", cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+}
+
+.header {
+    padding: 0% 0% 0% 2%;
+    color: var(--cor-primaria);
+    background-color: var(--cor-quarta);
+}
+
+.menu {
+    display: flex;
+    gap: 80px;
+}
+
+.menu_titulo {
+    font-family: var(--fonte-quarta);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6rem;
+    color: var(--cor-terciaria);
+    padding: 0% 40% 0% 1%;
+}
+
+.menu_link {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.6rem;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+    padding: 2% 0% 0% 1%;
+}
+
+.main {
+    padding: 7% 28% 0% 31%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.secoa {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.secao_titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 3rem;
+    color: var(--cor-terciaria);
+}
+
+.secao_paragrafo {
+    font-family: var(--fonte-terciaria);
+    font-size: 1.5rem;
+    color: #f0fbce;
+    margin: 1% 0% 0% 0%;
+    padding: 1% 8% 5% 1%;
+    text-align: center;
+}
+
+.secao_botao {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border: 2px solid var(--cor-terciaria);
+    width: 45%;
+    text-align: center;
+    border-radius: 7px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 20px 0;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
+    margin: 5% 0% 5% 25%;
+}
+
+.secao_botao:hover {
+    background-color: var(--cor-hover);
+}
