@@ -58,7 +58,7 @@ body {
     font-size: 3rem;
     color: var(--cor-terciaria);
     position: relative;
-    left: 340px;
+    left: 370px;
 }
 
 
@@ -98,9 +98,9 @@ body {
 
 .secao_titulo {
     font-family: var(--fonte-secundaria);
-    font-size: 3.2rem;
+    font-size: 3rem;
     color: var(--cor-terciaria);
-    margin: 20% 0% 0% 0%;
+    margin: 15% 0% 0% 0%;
 }
 
 .secao_paragrafo {
@@ -126,7 +126,7 @@ body {
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
-    margin: 10% 0% 5% 17%;
+    margin: 8% 0% 5% 17%;
 }
 
 .secao_botao:hover {
@@ -185,7 +185,7 @@ body {
 .busca {
     display: flex;
     justify-content: center;
-    width: 70%;     
+    width: 73%;     
     padding: 1% 0% 1% 30%;       
     box-sizing: border-box;
     color: var(--cor-secundaria);
