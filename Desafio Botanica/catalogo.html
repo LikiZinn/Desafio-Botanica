@@ -10,45 +10,201 @@
 </head>
 <body>
     <header class="header">
-        <nav class="menu">
-            <h1 class="menu_titulo">Cantinho Botânico</h1>
-            <h2> </h2>
-            <h3> </h3>
-            <h4> </h4>
-            <a class="menu_link" href="index.html">Início</a>
-            <a class="menu_link" href="contato.html">Contato</a>
-        </nav>  
+
+    <div class="div_nav">
+        <nav class="menu"></nav>  
+    </div>
+    <div class="div_nav">
+            <h1 class="menu_titulo">Cantinho Botânico</h1></div>
+            <div class="div_nav">
+            <h2 class="menu_titulo2">Catálogo</h2></div>
+            <div class="div_nav">
+            <a class="menu_link_catalogo" href="index.html">Início</a></div>
+            <div class="div_nav">
+            <a class="menu_link_catalogo" href="contato.html">Contato</a></div>
+        
+    </div>
     </header>
     <main class="catalogo">
-        <h2 class="menu_titulo2">Catálogo</h2>
         <div class="busca">
             <input type="text" id="barra_busca" placeholder="Pesquise Produtos" onkeyup="filtrarProdutos()">
         </div>
-         <div class="produto-card">
-            <img src="https://picsum.photos" alt="Produto 1">
-            <div class="produto-info">
-                <h3>Nome do Produto 1</h3>
-                <p class="descricao">Breve descrição com os detalhes e benefícios do produto.</p>
-                <p class="preco">R$ 99,90</p>
-            </div>
-
-            <div class="produto-card">
-            <img src="https://picsum.photos" alt="Produto 2">
-            <div class="produto-info">
-                <h3>Nome do Produto 2</h3>
-                <p class="descricao">Breve descrição com os detalhes e benefícios do produto.</p>
-                <p class="preco">R$ 99,90</p>
-            </div>
-
-            <div class="produto-card">
-            <img src="https://picsum.photos" alt="Produto 1">
-            <div class="produto-info">
-                <h3>Nome do Produto 1</h3>
-                <p class="descricao">Breve descrição com os detalhes e benefícios do produto.</p>
-                <p class="preco">R$ 99,90</p>
-            </div>
+  
+        <div id="lista-de-produtos">
+    <!-- Plantas e Flores -->
+    <div class="produto-item">
+        <div class="produto-img">
+            <img src="./ImagensP/MudadeCosteladeAdão.jpg" alt="Costela de Adão">
         </div>
+        <h3>Muda de Costela de Adão</h3>
+        <p>Plantas</p>
+    </div>
+
+    <div class="produto-item">
+        <div class="produto-img">
+            <img src="./ImagensP/EspadadeSãoJorgeTrançada.jpg" alt="Espada de São Jorge">
+        </div>
+        <h3>Espada de São Jorge Trançada</h3>
+        <p>Plantas</p>
+    </div>
+
+    <div class="produto-item">
+        <div class="produto-img">
+            <img src="./ImagensP/ÁrvoreFicusLyrataBambino.webp" alt="Ficus Lyrata">
+        </div>
+        <h3>Árvore Ficus Lyrata Bambino</h3>
+        <p>Plantas</p>
+    </div>
+
+    <div class="produto-item">
+        <div class="produto-img">
+            <img src="./ImagensP/KitMiniSuculentasVariadas.webp" alt="Suculentas">
+        </div>
+        <h3>Kit Mini Suculentas Variadas (6 un)</h3>
+        <p>Suculentas e Cactos</p>
+    </div>
+
+    <div class="produto-item">
+        <div class="produto-img">
+            <img src="./ImagensP/OrquídeaPhalaenopsisBranca.webp" alt="Orquídea Phalaenopsis">
+        </div>
+        <h3>Orquídea Phalaenopsis Branca</h3>
+        <p>Flores Naturais</p>
+    </div>
+
+    <div class="produto-item">
+        <div class="produto-img">
+            <img src="./ImagensP/CactoMandacaruparaVaso.avif" alt="Cacto Mandacaru">
+        </div>
+        <h3>Cacto Mandacaru para Vaso</h3>
+        <p>Suculentas e Cactos</p>
+    </div>
+
+    <div class="produto-item">
+        <div class="produto-img">
+            <img src="./ImagensP/PlantaJiboiaPendente.webp" alt="Jiboia Verde">
+        </div>
+        <h3>Planta Jiboia Pendente</h3>
+        <p>Plantas de Interior</p>
+    </div>
+
+    <div class="produto-item">
+        <div class="produto-img">
+            <img src="./ImagensP/MudaOrgânicadeManjericãoRoxo.webp" alt="Manjericão Horta">
+        </div>
+        <h3>Muda Orgânica de Manjericão Roxo</h3>
+        <p>Horta e Ervas</p>
+    </div>
+
+    <!-- Vasos e Decoraçãos -->
+    <div class="produto-item">
+        <div class="produto-img">
+            <img src="./ImagensP/VasodeTerracotaArtesanalClássico.webp" alt="Vaso de Terracota">
+        </div>
+        <h3>Vaso de Terracota Artesanal Clássico</h3>
+        <p>Vasos e Decoração</p>
+    </div>
+
+    <div class="produto-item">
+        <div class="produto-img">
+            <img src="./ImagensP/CachepotdeCerâmicaGeométrico.webp" alt="Cachepot de Cerâmica">
+        </div>
+        <h3>Cachepot de Cerâmica Geométrico</h3>
+        <p>Vasos e Decoração</p>
+    </div>
+
+    <div class="produto-item">
+        <div class="produto-img">
+            <img src="https://unsplash.com" alt="Suporte de Macramê">
+        </div>
+        <h3>Suporte de Planta em Macramê de Algodão</h3>
+        <p>Vasos e Decoração</p>
+    </div>
+
+    <!-- Ferramentas -->
+    <div class="produto-item">
+        <div class="produto-img">
+            <img src="https://unsplash.com" alt="Regador de Zinco">
+        </div>
+        <h3>Regador de Zinco Estilo Vintage 1.5L</h3>
+        <p>Ferramentas</p>
+    </div>
+
+    <div class="produto-item">
+        <div class="produto-img">
+            <img src="https://unsplash.com" alt="Tesoura de Poda">
+        </div>
+        <h3>Tesoura de Poda de Alta Precisão Tramontina</h3>
+        <p>Ferramentas</p>
+    </div>
+
+    <div class="produto-item">
+        <div class="produto-img">
+            <img src="https://unsplash.com" alt="Kit Jardinagem">
+        </div>
+        <h3>Kit Mini Ferramentas de Jardinagem (3 peças)</h3>
+        <p>Ferramentas</p>
+    </div>
+
+    <!-- Produtos -->
+    <div class="produto-item">
+        <div class="produto-img">
+            <img src="https://unsplash.com" alt="Substrato premium">
+        </div>
+        <h3>Substrato Premium para Suculentas e Cactos 1kg</h3>
+        <p>Produtos e Solo</p>
+    </div>
+
+    <div class="produto-item">
+        <div class="produto-img">
+            <img src="https://unsplash.com" alt="Húmus de Minhoca">
+        </div>
+        <h3>Húmus de Minhoca Orgânico Puro 2kg</h3>
+        <p>Produtos e Solo</p>
+    </div>
+
+    <div class="produto-item">
+        <div class="produto-img">
+            <img src="https://unsplash.com" alt="Fertilizante NPK">
+        </div>
+        <h3>Fertilizante Mineral NPK 10-10-10 Líquido</h3>
+        <p>Produtos e Solo</p>
+    </div>
+
+    <div class="produto-item">
+        <div class="produto-img">
+            <img src="https://unsplash.com" alt="Argila Expandida">
+        </div>
+        <h3>Argila Expandida para Drenagem 1kg</h3>
+        <p>Produtos e Solo</p>
+    </div>
+
+    <div class="produto-item">
+        <div class="produto-img">
+            <img src="https://unsplash.com" alt="Musgo Esfagno">
+        </div>
+        <h3>Musgo Esfagno Desidratado para Orquídeas</h3>
+        <p>Produtos e Solo</p>
+    </div>
+</div>
+
+
     </main>
-        
+     <script>
+        function filtrarProdutos() {
+            let input = document.getElementById('barra_busca').value.toLowerCase();
+            let listaProdutos = document.getElementsByClassName('produto-item');
+
+            for (let i = 0; i < listaProdutos.length; i++) {
+                let titulo = listaProdutos[i].textContent || listaProdutos[i].innerText;
+                if (titulo.toLowerCase().indexOf(input) > -1) {
+                    listaProdutos[i].style.display = "";
+                } else {
+                    listaProdutos[i].style.display = "none";
+                }
+            }
+        }
+    </script>
+
 </body>
 </html>
